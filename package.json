@@ -1,0 +1,31 @@
+{
+  "name": "example-coveralls",
+  "version": "1.0.0",
+  "description": "Example of Coveralls",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --require intelli-espower-loader test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyajan/example-coveralls.git"
+  },
+  "keywords": [
+    "Coveralls",
+    "test",
+    "coverage"
+  ],
+  "author": "miyajan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miyajan/example-coveralls/issues"
+  },
+  "homepage": "https://github.com/miyajan/example-coveralls#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.12",
+    "intelli-espower-loader": "^1.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "power-assert": "^1.4.1"
+  }
+}
